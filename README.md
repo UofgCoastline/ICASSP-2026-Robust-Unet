@@ -5,6 +5,30 @@ This repo includes a clean PyTorch re-implementation of the models, training/eva
 
 📄 Associated paper draft: “Multi-Modal Robust Enhancement for Coastal Water Segmentation: A Systematic HSV-Guided Framework” (ICASSP 2026 submission)
 
+------------------------------------------------------
+Coastal erosion is a critical global challenge, intensified by climate change, sea-level rise, and increasingly frequent extreme weather events. Shoreline retreat directly threatens infrastructure, local communities, and ecosystems, leading to loss of land, damage to property, and long-term socio-economic risks.
+
+In Scotland and across Europe, many coastal regions are already experiencing accelerated erosion. Traditional monitoring methods — such as manual field surveys or spectral index–based remote sensing — often struggle to provide the accuracy, robustness, and scalability needed for effective decision-making.
+
+The TERRA Project (Horizon Europe) addresses this challenge by developing digital twins for coastal zones, enabling continuous monitoring, simulation, and prediction of coastal changes. Within TERRA, our team at the University of Glasgow leads the CoastDT module, focusing on coastal water and shoreline segmentation from satellite imagery (Sentinel-2, Landsat, PlanetScope, etc.).
+
+Our Robust U-Net framework is designed to:
+
+Capture complex shoreline geometries with high accuracy.
+
+Remain stable across diverse environmental and seasonal conditions.
+
+Provide reliable inputs for erosion risk modeling and long-term digital twin simulations.
+
+By advancing automated and physics-informed segmentation, this work contributes to practical coastal erosion monitoring, supporting local councils, environmental agencies, and policymakers in planning mitigation and adaptation strategies.
+
+
+
+
+
+
+
+
 -----------------------------------------------------
 Features
 
