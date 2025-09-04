@@ -21,7 +21,7 @@ Curves and bar plots saved to disk
 ---------------------------------------------------
 conda create -n coast python=3.10 -y
 conda activate coast
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121  # 或 CPU 版本
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121 
 pip install numpy pillow scikit-learn matplotlib
 
 ---------------------------------------------------
