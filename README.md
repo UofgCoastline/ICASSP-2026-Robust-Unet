@@ -3,7 +3,7 @@ Specifically, recent water-specific segmentation methods, including WaterNet, MS
 This extension is intended to enable fair and transparent benchmarking, while isolating the effect of the proposed robust training constraints from architectural differences. 
 All baseline methods are evaluated using identical data splits, input settings, and evaluation metrics.
 
-Quantitative Performance Comparison
+Quantitative Performance Comparison (*: New added SOTA algorithms)
 
 | Model            | IoU (mean ± std)   | F1 (mean ± std)    | Acc (mean ± std)   |
 | ---------------- | ------------------ | ------------------ | ------------------ |
@@ -14,7 +14,7 @@ Quantitative Performance Comparison
 | MSWNet*           | **0.9658 ± 0.004** | **0.9826 ± 0.002** | **0.9817 ± 0.002** |
 | HRNet-Water*      | 0.9471 ± 0.050     | 0.9721 ± 0.029     | 0.9717 ± 0.026     |
 | SegFormer-Lite*   | 0.9625 ± 0.004     | 0.9809 ± 0.002     | 0.9799 ± 0.002     |
-*: New added SOTA algorithms
+
 
 Although Robust U-Net does not achieve the absolute highest mean scores among all methods, it consistently delivers competitive performance across all metrics with markedly lower variance. This indicates improved training stability and robustness, which are critical in coastal water segmentation where spectral conditions and shoreline geometry vary significantly. In contrast, several water-specific models achieve marginally higher mean accuracy at the cost of increased model complexity or higher sensitivity to training conditions. The proposed approach therefore offers a favorable trade-off between accuracy, stability, and robustness, making it well suited for reliable large-scale coastal monitoring.
 
